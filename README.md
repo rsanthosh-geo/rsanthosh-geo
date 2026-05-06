@@ -1,6 +1,6 @@
 ## Santhosh Kumar R — Geospatial AI Engineer
 
-Satellite intelligence engineer with 2.6 years building production-grade 
+Satellite intelligence engineer with 2.7 years building production-grade 
 geospatial systems for Fortune 500 utility and ecological clients across 
 North America, Europe and Asia-Pacific.
 
