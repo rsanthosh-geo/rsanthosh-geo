@@ -114,7 +114,7 @@ Elected Climate Resilience Head.
 
 Senior GIS Engineer · Geospatial AI Engineer · Remote Sensing Engineer · Spatial Data Engineer · GIS Automation Lead
 
-Roles in geospatial AI, environmental tech, smart infrastructure, biodiversity compliance, or utility asset management. Target: **20 LPA+**
+Roles in geospatial AI, environmental tech, smart infrastructure, biodiversity compliance, or utility asset management.
 
 ---
 
