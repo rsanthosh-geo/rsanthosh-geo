@@ -34,8 +34,7 @@ That is why I was selected exclusively for field validation feeders requiring ze
 | What I delivered | Result |
 |-----------------|--------|
 | Tree health classification accuracy on UPPCO (independent field validation) | 94.04% |
-| Habitat classification throughput at Code4Habitat Hackathon 2025 | 1 million hectares in under 9 minutes |
-| Satellite image co-registration in a single workday | 104 images, AiDash company record |
+| Habitat classification throughput at Code4Habitat Hackathon 2025 | 1 million hectares in under 30 minutes |
 | Tree species detection across two consecutive client contracts | 14,600 line miles |
 | Site-level BNG assessment turnaround improvement | 20 minutes reduced to 4 minutes |
 | Vendor first-pass acceptance rate after calibration framework | 40% improvement |
