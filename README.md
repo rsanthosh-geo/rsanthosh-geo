@@ -1,129 +1,63 @@
-<div align="center">
-
 # Santhosh Kumar R
 
-### GIS Automation Engineer &nbsp;|&nbsp; Remote Sensing Specialist &nbsp;|&nbsp; Geospatial AI Engineer
+**Geospatial Analyst · AI Data Operations · Remote Sensing, GIS & Applied Machine Learning**
 
-**Bengaluru, India &nbsp;|&nbsp; AiDash &nbsp;|&nbsp; 2.7 years production impact at a Fortune 500 geospatial AI company**
+[Mail](mailto:rsanthosh.geo@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rsanthoshgeo)
 
-[![Email](https://img.shields.io/badge/Email-rsanthosh.geo%40gmail.com-1B3A6B?style=flat-square&logo=gmail&logoColor=white)](mailto:rsanthosh.geo@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rsanthoshgeo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rsanthoshgeo)
-
-</div>
+Currently open to Geospatial Data Science / Remote Sensing roles, India and remote/international.
 
 ---
 
-> "Precision is not just a metric. It is the mindset that shapes every spatial decision."
+## About
 
----
+3 years in AI Data Operations at AiDash, building ML pipelines on satellite
+and aerial imagery for electrical T&D vegetation risk, biodiversity
+assessment, and climate-risk intelligence. Promoted from Associate
+Geospatial Analyst within 3 years.
 
-## The way I work
+## Highlights
 
-I do not wait for problems to be assigned. I find them, understand why they exist, build the fix, and ship it to production. At AiDash I was the fastest analyst to reach live deployment on a major client engagement, not because I worked faster but because I understood the full problem before writing a single line.
+- **94% field-validated accuracy** on tree-hazard detection (dead/declining
+  trees threatening electrical T&D corridors) for UK/US utility clients —
+  the highest recorded within the AI Data Operations team — with a
+  further **~30% reduction in false positives** through iterative model
+  refinement.
+- Architected **Code4Habitat** (2025 internal hackathon) — an AI
+  habitat-classification model exceeding **60% accuracy** against the UK
+  Defra Biodiversity Metric / UKHab standards, cutting assessment cycles
+  from days to hours.
+- Built a checklist-driven, multi-resolution tree-species classification
+  methodology — **30+ species**, **60% exact-match ground-truth
+  confidence**, delivered across **14,600+ line miles** on two utility
+  contracts.
 
-Most GIS engineers at the 2 to 4 year level execute workflows. I build the tools that make workflows obsolete.
+## What I've built
 
-My approach: when something takes 10 minutes and it should take 60 seconds, I do not accept it as a constraint. I write the Python to collapse it. When accuracy fails in the field, I trace it back to the source, whether that is spectral overlap, angle variation, or logic gaps in the QC tool, and I fix the root cause rather than the symptom.
+Five open-source geospatial tools, generalized from real production
+workflows. Every one ships with a standalone mode, a synthetic/
+reproducible demo, and an honest README about what's illustrative versus
+measured — not just a description of what the code is claimed to do.
 
-That is why I was selected exclusively for field validation feeders requiring zero error tolerance. And why a hackathon project I built in one day processed 1 million hectares in under 9 minutes.
+| Tool | What it does |
+|---|---|
+| [raster-nodata-cleanup](https://github.com/rsanthosh-geo/geospatial-toolkit/tree/main/raster-nodata-cleanup) | Batch NoData/white-patch removal from satellite, aerial, and drone imagery — QGIS and standalone modes |
+| [vegetation-extraction](https://github.com/rsanthosh-geo/geospatial-toolkit/tree/main/vegetation-extraction) | Excess Green Index vegetation-polygon extraction from RGB imagery |
+| [spatial-feature-snapping](https://github.com/rsanthosh-geo/geospatial-toolkit/tree/main/spatial-feature-snapping) | Point-to-line-vertex snapping with a strict 1:1 constraint |
+| [line-miles-calculator](https://github.com/rsanthosh-geo/geospatial-toolkit/tree/main/line-miles-calculator) | Feeder line-miles aggregation with recency-based delivery-time estimation |
+| [polygon-delta-qc-engine](https://github.com/rsanthosh-geo/geospatial-toolkit/tree/main/polygon-delta-qc-engine) | Shapefile delta QC — dependency-free DBF parsing, ground-truth-verified |
 
----
+## Tech stack
 
-## Impact that is verifiable
-
-| What I delivered | Result |
-|-----------------|--------|
-| Tree health classification accuracy on UPPCO (independent field validation) | 94.04% |
-| Habitat classification throughput at Code4Habitat Hackathon 2025 | 1 million hectares in under 30 minutes |
-| Tree species detection across two consecutive client contracts | 14,600 line miles |
-| Site-level BNG assessment turnaround improvement | 20 minutes reduced to 4 minutes |
-| Vendor first-pass acceptance rate after calibration framework | 40% improvement |
-| Per-entry Span Metric processing time | 10 minutes reduced to under 60 seconds |
-
----
-
-## What I build and why
-
-### [GIS Automation and Projects](https://github.com/rsanthosh-geo/GIS-Automation-and-Projects)
-
-Production QGIS automation models, satellite imagery pipelines, habitat classification workflows, and tree health quality control systems built for real client deployments. Every model in this repo replaced a manual process that was creating errors or consuming disproportionate time.
-
-**Domains covered:** electrical utility vegetation management, UK Biodiversity Net Gain, coastal habitat annotation, urban ecosystem mapping
-
-### [Code4Habitat BNG Automation](https://github.com/rsanthosh-geo/code4habitat-bng-automation)
-
-Rule-based BNG habitat classification engine built at the AiDash Hackathon 2025. Processes habitat polygons against Defra Biodiversity Metric 4.0 SOP logic across England, Scotland, and Wales. The build that achieved 1 million hectares in under 9 minutes and compressed per-site turnaround from 20 minutes to 4 minutes.
-
-### [PyQGIS Satellite Pipeline](https://github.com/rsanthosh-geo/pyqgis-satellite-pipeline)
-
-The plugin that eliminated manual satellite image sourcing entirely. Parametric AOI generation, dynamic 235-ft buffer logic, and cloud-threshold filtering in a single production-grade Python workflow. Built because the manual process had no version control, no repeatability, and no error handling.
-
-### [Coastal Habitat Annotation](https://github.com/rsanthosh-geo/coastal-habitat-annotation)
-
-Mangrove, seagrass, coral reef, and saltmarsh delineation from multispectral Sentinel imagery for supervised ML pipelines. UAE field project. Produced 12 QA-verified habitat classes across 3 coastal zones as the labelled foundation for an operational classification model.
-
----
-
-## Technical stack
-
-**GIS platforms**
-
-QGIS, ArcGIS Pro, GDAL/OGR, PostGIS, Google Earth Engine, AIMS
-
-**Programming and automation**
-
-Python, PyQGIS, GeoPandas, Rasterio, Shapely, NumPy, Pandas, SQL, JavaScript
-
-**AI and machine learning**
-
-SAM (Segment Anything Model), YOLOv8, TensorFlow, PyTorch, Random Forest, XGBoost
-
-**Satellite and imagery**
-
-Sentinel-2, Landsat 8/9, MODIS, GSAT, Aerial (5 to 50 cm), NDVI/EVI/SAVI, OBIA
-
-**Databases and cloud**
-
-PostgreSQL, PostGIS, AWS, GCP, Docker, Git, REST APIs
-
-**Domain standards**
-
-UK BNG Legislation, Defra Biodiversity Metric 4.0, UKHab Classification, OGC Standards, T&D Utility Workflows
-
----
-
-## Domain expertise
-
-### Electrical utility vegetation management
-
-Working with IVMS (Intelligent Vegetation Management System) and AIMS (Asset Inspection and Monitoring System) on live T&D infrastructure at scale. Tree species detection across 14,600 line miles, tree health QA with 94.04% field-validated accuracy, vegetation encroachment classification, satellite imagery co-registration, and span-level automation. All delivered under direct client accountability with field validation against ground truth.
-
-### UK Biodiversity Net Gain
-
-Built automation for the BNG AI product covering Defra Biodiversity Metric 4.0 classification across Britain. UKHab classification, habitat polygon labelling at scale, rule-based SOP automation, and the Code4Habitat platform that set a throughput benchmark of 1 million hectares in under 9 minutes at the 2025 internal hackathon.
-
----
+Python · PyQGIS · GDAL / rasterio · GeoPandas / Shapely · Google Earth
+Engine · pandas / openpyxl · PyQt5
 
 ## Education
 
-M.Sc. Geology, University of Madras, Chennai (2021 to 2023). RUSA Project Fellow. Funded research in sedimentology and trace element geochemistry for environmental impact assessment.
+M.Sc. Geology — University of Madras *(RUSA Project Fellow)*
+B.Sc. Geology — National College
 
-B.Sc. Geology, National College, Tiruchirappalli (2018 to 2021). Elected Climate Resilience Head.
+## Certifications
 
-**Certifications:** Geospatial Technology FOSS4G at IIRS and ISRO, Remote Sensing and GIS for Meteorological Hazards at NIDM, FOSSEE Mapathon at IIT Bombay, Nature-Based Solutions at NIDM.
-
----
-
-## Open to
-
-Senior GIS Engineer, Geospatial AI Engineer, Remote Sensing Engineer, Spatial Data Engineer, GIS Automation Lead. Target roles in geospatial AI, environmental technology, smart infrastructure, biodiversity compliance, or utility asset management.
-
-If you are hiring for someone who brings a problem-solving mindset, builds tools that did not exist before, and raises the accuracy bar on every project they touch, let us talk.
-
----
-
-<div align="center">
-
-**[rsanthosh.geo@gmail.com](mailto:rsanthosh.geo@gmail.com) &nbsp;|&nbsp; [linkedin.com/in/rsanthoshgeo](https://linkedin.com/in/rsanthoshgeo) &nbsp;|&nbsp; Bengaluru, India**
-
-</div>
+IIRS & ISRO — Geospatial Technology (FOSS4G) · IIT Bombay — FOSSEE
+Mapathon · NIDM — RS & GIS in Meteorological Hazards · NIDM —
+Nature-Based Solutions
