@@ -12,8 +12,7 @@ Currently open to Geospatial Data Science / Remote Sensing roles, India and remo
 
 3 years in AI Data Operations at AiDash, building ML pipelines on satellite
 and aerial imagery for electrical T&D vegetation risk, biodiversity
-assessment, and climate-risk intelligence. Promoted from Associate
-Geospatial Analyst within 3 years.
+assessment, and climate-risk intelligence.
 
 ## Highlights
 
